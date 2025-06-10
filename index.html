@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishuri ry'Ubucuruzi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            margin-top: 2rem;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ishuri ry'Ubucuruzi</h1>
+    <p>Aho ubumenyi buhurira n'ubuzima!</p>
+</header>
+
+<nav>
+    <a href="#about">Ibyacu</a>
+    <a href="#courses">Amasomo</a>
+    <a href="#gallery">Amafoto</a>
+    <a href="#location">Aho Duherereye</a>
+    <a href="#contact">Twandikire</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>Ibyerekeye Ishuri</h2>
+        <p>Ishuri ryacu ryigisha ubucuruzi ryatangiye mu 2010. Intego yacu ni ugutoza abanyeshuri ubushobozi bwo guhanga imirimo no guteza imbere ubukungu bw’igihugu.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Amasomo Dutanga</h2>
+        <ul>
+            <li>Certificate mu Bucuruzi Rusange</li>
+            <li>Diploma mu Micungire y’Ubucuruzi</li>
+            <li>Amahugurwa y’igihe gito (Short Courses) mu Kwandika Imishinga</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Amafoto</h2>
+        <div class="gallery">
+            <img src="amashuri.jpg" alt="Inyubako z'ishuri">
+            <img src="abanyeshuri.jpg" alt="Abanyeshuri biga">
+            <img src="laboratoire.jpg" alt="Laboratoire y'ishuri">
+        </div>
+    </section>
+
+    <section id="location">
+        <h2>Aho Duherereye</h2>
+        <p>Duhereye mu Mujyi wa Kigali, mu Karere ka Gasabo, hafi ya Kigali Heights.</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.4896276218264!2d30.096478714753024!3d-1.944073398563779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6965a57f0f9%3A0xabc1234567890def!2sKigali%20Heights!5e0!3m2!1sen!2srw!4v1616177602115!5m2!1sen!2srw" 
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Twandikire</h2>
+        <p>Email: info@ishuriryubucuruzi.rw | Telephone: +250 789 123 456</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Ishuri ry'Ubucuruzi. Uburenganzira bwose burabitswe.</p>
+</footer>
+
+<script>
+    // Future Enhancements: Adding interactivity (e.g., form validation)
+</script>
+
+</body>
+</html>
